@@ -1,6 +1,6 @@
 import time
 from uuid import uuid4
-from storage import MongoService
+from MongoService.storage import MongoService
 
 storage = MongoService.get_instance()
 
